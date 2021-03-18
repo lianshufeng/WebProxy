@@ -19,7 +19,7 @@ import java.util.List;
 public class ProxyConf {
 
     //代理项
-    private List<Item> items = new ArrayList<>() {{
+    private List<Item> items = new ArrayList<Item>() {{
         add(Item.builder().port(808).build());
     }};
 
